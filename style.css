@@ -58,15 +58,105 @@ img {
     border: solid white 0.5px;
 }
 
-h1 {
+h2 {
+    margin-top: 10px;
     color: white;
 }
 
-h2 {
-    color: gray ;
-    font-size: 10px
+h3 {
+    color: rgb(78, 78, 78) ;
 }
 
 p {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    padding: 0 30;
+}
+
+.button-hireme{
+    padding: 10;
+    margin: 20px 0;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+    cursor: pointer;
+    color: white;
+
+}
+
+.button-hireme:hover{
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 100%);
+
+}
+
+hr {
+    width: 90%;
+    border: solid white;
+}
+
+.social-container{
+    display: flex;
+}
+
+.social-button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px ;
+    padding: 20px;
+
+}
+
+.social-button button{
+
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.social-button .fa{
+    font-size: 30px;
+
+}
+
+.button-github{
+    background:linear-gradient(45deg, rgb(83, 83, 83) 0%, gray 100%);
+
+
+}
+
+.button-github:hover{
+    background:linear-gradient(225deg, rgb(83, 83, 83) 0%, gray 100%);
+
+}
+
+.button-instagram{
+    background:linear-gradient(225deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+
+
+}
+
+.button-instagram:hover{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    
+}
+
+.button-youtube{
+    background:linear-gradient(45deg, #ff0000, #622424);
+
+}
+
+.button-youtube:hover{
+    background:linear-gradient(225deg, #ff0000, #622424);
+}
+
+.seguidores{
     color: white;
 }
