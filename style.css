@@ -22,7 +22,7 @@ body {
     align-items: center;
     width: 340px;
     height: 580px;
-    background-color: #2c2929;
+    background-color: #5d5a63;
     border: none;
     border-radius: 12px;
 }
@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(78, 78, 78) ;
+    color: rgb(36, 34, 34) ;
 }
 
 p {
