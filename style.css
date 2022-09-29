@@ -158,16 +158,14 @@ hr {
     background:linear-gradient(225deg, #ff0000, #622424);
 }
 
-.seguidores{
+span{
     color: white;
-    font-size: 30px;
+    margin: 5 auto;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .social-button h3{
-    color: white;
-    opacity: 50%;
-    font-weight: lighter;
-    font-size: 10px;
+    font-size: 15px;
 
 }
