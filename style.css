@@ -76,9 +76,9 @@ p {
 
 .button-hireme{
     padding: 10;
-    margin: 20px 0;
+    margin: 10px 0;
     width: 150px;
-    height: 30px;
+    height: 50px;
     border: none;
     border-radius: 40px;
     background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
@@ -93,6 +93,7 @@ p {
 }
 
 hr {
+    margin-top: 10px;
     width: 90%;
     border: solid white;
 }
@@ -106,8 +107,9 @@ hr {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 20px ;
-    padding: 20px;
+    text-align: center;
+    margin-top: 5px ;
+    padding: 30px;
 
 }
 
@@ -159,4 +161,14 @@ hr {
 
 .seguidores{
     color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.social-button h3{
+    color: white;
+    opacity: 50%;
+    font-weight: lighter;
+    font-size: 10px;
+
 }
